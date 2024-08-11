@@ -4,7 +4,7 @@ layout: Page
 ---
 
 # Image Recognizer 
-Can classify 20 different types of Football CLub Jerseys <br/>
+Can classify 20 different types of Football Club Jerseys <br/>
 They are following: <br/>
 1. AC Milan Jersey
 2. Arsenal Jersey
