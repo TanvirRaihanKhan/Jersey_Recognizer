@@ -4,7 +4,7 @@ layout: Page
 ---
 
 # Image Recognizer 
-Can classify different types of Football Club Jerseys of Europe's top 20 clubs  <br/>
+Can classify different types of Football Club Jerseys of Europe's top 20 club  <br/>
 They are following: <br/>
 1. AC Milan Jersey
 2. Arsenal Jersey
