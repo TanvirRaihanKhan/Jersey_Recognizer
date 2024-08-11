@@ -3,9 +3,9 @@ remote_theme: minimal-mistakes@master
 plugins:
 - jekyll-remote-theme
  
- title: Football_Jersey_Recognizer
- description: An image classification API that classifies 20 different types of Club Jerseys belong to Europe's top 20 football clubs.
+title: Football_Jersey_Recognizer
+description: An image classification API that classifies 20 different types of Club Jerseys belong to Europe's top 20 football clubs.
 
- author:
+author:
    name: Tanvir Raihan Khan
-    
+
