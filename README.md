@@ -35,7 +35,7 @@ Details can be found in 'notebooks\JerseyRecogniser_Data_collection.ipynb'
 
 # Model deployment
 I deployed model to HuggingFace Spaces Gradio App. The deployment canbe found in 'deployment' folder or [here](https://huggingface.co/spaces/Tanvirtrk/Football_Jersey_Recognizer). <br/>
-<img src='deployment\GradioApp_Demo.PNG',width='600',height='300'>
+<img src='deployment\GradioApp_Demo.PNG' width='800' height='400'>
 
 # API Integration with Github Pages
 The deployed model API is integrated into [here]('tanvirraihankhan.github.io/Jersey_Recognizer/') into Github Pages website. Implementation and other details can be found in 'docs' folder. 
