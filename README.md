@@ -24,7 +24,7 @@ They are following: <br/>
 20. Tottenham Jersey
 
 # Dataset preparation
-**Data Collection:**Downloaded from DuckDuckGo using term name <br/>
+**Data Collection:** Downloaded from DuckDuckGo using term name <br/>
 **Dataloader:** Used fastai DataBlock API to set uo the DataLoader <br/>
 **Data Augmentation:** fastai provides data augmentation which operates in GPU <br/>
 Details can be found in 'notebooks\JerseyRecogniser_Data_collection.ipynb'
@@ -38,6 +38,5 @@ I deployed model to HuggingFace Spaces Gradio App. The deployment canbe found in
 <img src='deployment\GradioApp_Demo.PNG',width='600',height='300'>
 
 # API Integration with Github Pages
-The deployed model API is integrated into [here]('https://tanvirraihankhan.github.io/Jersey_Recognizer/') into Github Pages website. Implementation and other details can be found in 'docs' folder. 
-
+The deployed model API is integrated into [here]('tanvirraihankhan.github.io/Jersey_Recognizer/') into Github Pages website. Implementation and other details can be found in 'docs' folder. 
 
