@@ -25,31 +25,31 @@ layout: Pages
 
 </script> -->
 <script type="module">
-    import { client } from "@gradio/client";
+    import { client } from "https://cdn.jsdelivr.net/npm/@gradio/client@0.1.4/dist/index.min.js";
     async function loaded(reader) {
     const app = await client("https://tanvirtrk-football-jersey-recognizer-2.hf.space/--replicas/d5lo7/");
-    const result = await app.predict("/predict", [reader.result]);
+    const response = await app.predict("/predict", [reader.result]);
     console.log(result.data);
-    const response = await fetch("https://tanvirtrk-football-jersey-recognizer-2.hf.space/--replicas/d5lo7/predict",{
-        method:"POST",headers:{"Content-type":"application/json"},
-        body: JSON.stringify({data:[reader.result]})});
+    // const response = await fetch("https://tanvirtrk-football-jersey-recognizer-2.hf.space/--replicas/d5lo7/predict",{
+    //     method:"POST",headers:{"Content-type":"application/json"},
+    //     body: JSON.stringify({data:[reader.result]})});
                                 
-     const json = await result.json();
-    console.log(result.data);
-    const label=json['data'][0]['label'];
-    results.innerHTML='<br/> <img src="${reader.result}" width="500"> <p>${label}</p>'
+    //  const json = await result.json();
+    //console.log(result.data);
+    const label=response['data'][0]['label'];
+    results.innerHTML=`<br/> <img src="${reader.result}" width="500"> <p>${label}</p>`
     }   
     function read(){
         const reader=new FileReader()
         reader.addEventListener('load',()=> loaded(reader))
         reader.readAsDataURL(photo.files[0]);
     }
-    photo.addEventListener('input',read)		
+    photo.addEventListener('input',read);		
     // const app = await client("https://tanvirtrk-football-jersey-recognizer-2.hf.space/--replicas/d5lo7/");
-    const result = await app.predict("/predict", [
-		exampleImage, 	// blob in 'image' Image component
-	]);
-    console.log(result.data);
+    // const result = await app.predict("/predict", [
+	// 	exampleImage, 	// blob in 'image' Image component
+	// ]);
+    //log(result.data);
 
 </script>
 
