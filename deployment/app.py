@@ -38,8 +38,8 @@ def recognize_image(image):
   print(pred)
   return dict(zip(jersey_labels, map(float,probs)))
 
-image = gr.Image()
-label = gr.Label()
+image = gr.inputs.Image()
+label = gr.outputs.Label()
 examples = [
    "Test_images/Test_image1.jpg",
    "Test_images/Test_image2.jpg",
