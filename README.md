@@ -1,5 +1,5 @@
 # Jersey_Recognizer
-An image classification model from data collection,cleaning,model training,deployment and API integration. <br/>
+An image classification model that includes data collection,cleaning,model training,deployment and API integration. <br/>
 The model can classify different types of Football Club Jerseys of Europe's top 20 club  <br/>
 They are following: <br/>
 1. AC Milan Jersey
